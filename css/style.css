@@ -1,98 +1,83 @@
-body, html {
-  min-height: 100%;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
-body {
-  font-family: sans-serif;
-  background-image: url("../img/img9.jpg");
-  background-repeat: no-repeat;
-  background-position: 0 0px;
-  background-size: cover;
-  margin: -15px;
-  padding: 0px;
-  background-color: black;
-  height: 1080px;
-  position: relative;
-}
-/*-----------T I T R E----------*/
-h1 {
-  color: black;
-  font-size: 56px;
-  font-weight: lighter;
-  text-align: center;
-  text-shadow: 0px 0px 50px black;
-  border-bottom: solid 5px;
-  border-top: solid 5px;
-  box-shadow: 0px 0px 50px black;
-  letter-spacing: 18px;
-  min-width: 800px;
-}
-/*-----------T I T R E----------*/
-
 /*-------N A V B A R------------*/
+
 .nav {
+  width: 100%;
   background-color: #282828;
-  color: black;
   list-style: none;
   text-align: center;
   padding: 20px;
   font-weight: bold;
-  min-width: 950px;
 
 }
-.nav > li {
+.nav  li {
   display: inline-block;
   padding-right: 65px;
   padding-left: 65px;
-
 }
-.nav > li > a {
+.nav  li  a {
   text-decoration: none;
   color: white;
+  transition: all 1s;
 }
-.nav > li > a:hover {
+.nav  li  a:hover {
 color: #a80000;
+transition: all 1s;
+background-color: #282828;
 }
 /*----------N A V B A R---------*/
-
-/*-----------P H R A S E  M I L I E U----------*/
-.phrase {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-width: 800px;
-  padding-top: 200px;
-  padding-bottom: 200px;
-  font-size: 20px;
-  letter-spacing: 2px;
+.back {
+  background-image: url("../img/img9.jpg");
+  height: 100vh;
+  background-size: cover;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+h1 {
+  color: #282828;
+  padding: 10px;
+  margin-top: 5%;
+  font-size: 56px;
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  box-shadow: 0 0 15px black, 0 0 40px black;
+  text-shadow: 0 0 40px black;
+  letter-spacing: 10px;
 }
 h2 {
-  color: white;
-  font-weight: lighter;
-  text-align: center;
-  word-spacing: 4px;
-  text-shadow: 0px 0px 100px black, 0px 0px 50px black;
+  margin-top: 10%;
+  text-shadow: 0 0 15px black, 0 0 40px black;
+
 }
-.presentation{
+h2 span {
+  font-weight: 400;
   text-decoration: underline;
-  border-width: 2px;
 }
-/*-----------P H R A S E  M I L I E U----------*/
+.title {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
 
 /*-----------F O O T E R------------*/
 footer {
   width: 100%;
+  font-size: 17px;
   background-color: #282828;
-  padding: 40px 40px;
-}
-footer {
   color: white;
   background-color: #1c1c1c;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 3px;
   text-align: center;
+  height: 50px;
 }
+
+
 /*-----------F O O T E R------------*/
