@@ -42,7 +42,9 @@ background-color: #282828;
 
 
 /*----------N A V B A R---------*/
-
+html {
+  height: 100%;
+}
 #random {
   overflow: auto;
   height: 86vh;
