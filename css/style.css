@@ -36,6 +36,7 @@ body {
   text-shadow: 0 0 15px black;
   background-color: #282828;
   outline-style: none;
+  padding: 20px;
 }
 
 .nav  li  a:hover {
