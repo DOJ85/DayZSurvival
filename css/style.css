@@ -35,6 +35,7 @@ body {
   font-weight: 400;
   text-shadow: 0 0 15px black;
   background-color: #282828;
+  outline-style: none;
 }
 
 .nav  li  a:hover {
@@ -45,7 +46,9 @@ transition: all 1s;
 -webkit-transition: all 1s;
 background-color: #282828;
 }
-
+.nav  li  a:focus {
+  color: #a80000;
+}
 
 /*----------N A V B A R---------*/
 html {
@@ -53,7 +56,7 @@ html {
 }
 #random {
   overflow: auto;
-  height: 86vh;
+  height: 86.4vh;
   background-position: 50% 50%;
   background-size: cover;
 }
