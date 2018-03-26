@@ -8,6 +8,7 @@ body {
   background-color: black;
   min-width: 282px;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 .nav1 {
   width: 100%;
