@@ -8,7 +8,7 @@ body {
   background-color: black;
   min-width: 282px;
 }
-.nav {
+.nav1 {
   width: 100%;
   background-color: #282828;
   list-style: none;
@@ -17,13 +17,14 @@ body {
   font-weight: bold;
   border-bottom: 3px solid #161616;
   box-shadow: 0 0 15px black, 0 0 30px black;
+  margin: 0;
 }
-.nav  li {
+.nav1  li {
   display: inline-block;
   padding-right: 65px;
   padding-left: 65px;
 }
-.nav  li  a {
+.nav1  li  a {
   text-decoration: none;
   color: white;
   transition: all 1s;
@@ -39,7 +40,7 @@ body {
   padding: 20px;
 }
 
-.nav  li  a:hover {
+.nav1  li  a:hover {
 color: #a80000;
 transition: all 1s;
 -moz-transition: all 1s;
@@ -47,7 +48,7 @@ transition: all 1s;
 -webkit-transition: all 1s;
 background-color: #282828;
 }
-.nav  li  a:focus {
+.nav1  li  a:focus {
   color: #a80000;
 }
 
@@ -57,7 +58,7 @@ html {
 }
 #random {
   overflow: auto;
-  height: 86.4vh;
+  height: 88vh;
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -120,6 +121,8 @@ footer {
   height: 50px;
   border-top: 2px solid #161616;
   box-shadow: 0 0 15px black;
+  position:absolute;
+  bottom:0;
 }
 footer p {
   padding-top: 12px;
