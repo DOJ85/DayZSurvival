@@ -16,7 +16,7 @@ body {
   padding: 20px;
   font-weight: bold;
   border-bottom: 3px solid #161616;
-  box-shadow: 0 0 15px black, 0 0 30px black, ;
+  box-shadow: 0 0 15px black, 0 0 30px black;
 }
 .nav  li {
   display: inline-block;
@@ -27,6 +27,9 @@ body {
   text-decoration: none;
   color: white;
   transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
   font-size: 17px;
   letter-spacing: 3px;
   font-weight: 400;
@@ -37,6 +40,9 @@ body {
 .nav  li  a:hover {
 color: #a80000;
 transition: all 1s;
+-moz-transition: all 1s;
+-o-transition: all 1s;
+-webkit-transition: all 1s;
 background-color: #282828;
 }
 
@@ -68,9 +74,15 @@ h1 {
   letter-spacing: 10px;
   background-color: rgba(255, 255, 255, .2);
   transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
 }
 h1:hover {
   transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  -webkit-transition: all 1s;
   background-color: rgba(255, 255, 255, .3)
 }
 h2 {
