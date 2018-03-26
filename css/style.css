@@ -7,6 +7,7 @@
 body {
   background-color: black;
   min-width: 282px;
+  overflow-y: hidden;
 }
 .nav1 {
   width: 100%;
@@ -35,9 +36,9 @@ body {
   letter-spacing: 3px;
   font-weight: 400;
   text-shadow: 0 0 15px black;
-  background-color: #282828;
   outline-style: none;
-  padding: 20px;
+  padding: 10px;
+  line-height: 35px;
 }
 
 .nav1  li  a:hover {
@@ -46,7 +47,6 @@ transition: all 1s;
 -moz-transition: all 1s;
 -o-transition: all 1s;
 -webkit-transition: all 1s;
-background-color: #282828;
 }
 .nav1  li  a:focus {
   color: #a80000;
