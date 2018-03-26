@@ -31,15 +31,20 @@ body {
   letter-spacing: 3px;
   font-weight: 400;
   text-shadow: 0 0 15px black;
+  background-color: #282828;
 }
+
 .nav  li  a:hover {
 color: #a80000;
 transition: all 1s;
 background-color: #282828;
 }
+
+
 /*----------N A V B A R---------*/
+
 #random {
-  
+  overflow: auto;
   height: 86vh;
   background-position: 50% 50%;
   background-size: cover;
@@ -52,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   color: #282828;
   padding: 10px;
-  margin-top: 5%;
+  margin-top: 10vh;
   font-size: 56px;
   border-top: 3px solid black;
   border-bottom: 3px solid black;
@@ -67,11 +72,12 @@ h1:hover {
   background-color: rgba(255, 255, 255, .3)
 }
 h2 {
-  margin-top: 10%;
+  margin-top: 20vh;
   text-shadow: 0 0 15px black, 0 0 40px black;
   line-height: 120%;
   letter-spacing: 4px;
   word-spacing: 7px;
+  margin-bottom: 20px;
 }
 h2 span {
   font-weight: 400;
